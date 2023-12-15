@@ -26,7 +26,7 @@ if(POLICY CMP0076)
 endif()
 
 # set target.
-add_executable(runTests src/test.cpp)
+add_executable(runTests)
 target_include_directories(runTests PUBLIC
         gtest
         gtest/include
