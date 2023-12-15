@@ -1,0 +1,9 @@
+---
+BasedOnStyle: Google
+AlignAfterOpenBracket: Align
+IndentWidth: 4
+UseTab: Never
+ColumnLimit: 120
+AccessModifierOffset: -3
+AllowShortFunctionsOnASingleLine: Empty
+...
