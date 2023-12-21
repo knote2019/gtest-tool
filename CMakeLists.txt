@@ -26,6 +26,9 @@ if(POLICY CMP0076)
 endif()
 
 #-----------------------------------------------------------------------------------------------------------------------
+# 3pp.
+
+#-----------------------------------------------------------------------------------------------------------------------
 # set target.
 add_executable(runTests)
 target_include_directories(runTests PUBLIC
@@ -39,3 +42,5 @@ target_sources(runTests PUBLIC
         gtest/src/gtest-all.cc
         ${TEST_SRCS}
         )
+target_link_libraries(runTests PUBLIC
+        "")
