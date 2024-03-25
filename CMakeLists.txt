@@ -24,9 +24,6 @@ endif()
 # set GLIBCXX_USE_CXX11_ABI.
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -D_GLIBCXX_USE_CXX11_ABI=1")
 
-# set openmp.
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
-
 #-----------------------------------------------------------------------------------------------------------------------
 # 3pp.
 
